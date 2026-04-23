@@ -9,4 +9,4 @@ Structure:
 - `JS/` — client-side scripts.
 - `Imgs/` — image assets.
 
-Open `Index.html` in a browser to view the site locally.
+The page uses absolute paths for its CSS/JS assets, so opening `Index.html` via `file://` will not load them. Serve the directory with a local web server instead — for example, `python -m http.server` — and visit the printed URL.
